@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav{
+  background-color:blue;
+  padding: 20px;
+}
+
+.main{
+  display: flex;
+  
+}
+
+.main .search{
+  width: 350px;
+  height: calc(90vh + 10px);
+  background-color:aquamarine;
+
+}
+
+.main .content{
+  width: 80%;
+  background-color: antiquewhite;
 }
