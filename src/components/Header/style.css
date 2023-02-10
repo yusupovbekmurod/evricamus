@@ -1,0 +1,22 @@
+.nav{
+    background-color:green;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav ul {
+  display: flex;
+  
+  text-decoration: none;
+  list-style: none;
+  margin-right: 200px;
+  }
+  
+  .nav ul li{
+    padding:5px;
+    margin-left: 50px;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+  }

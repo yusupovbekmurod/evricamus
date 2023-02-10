@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+   
+  }
+  
+  .main .search{
+    width: 350px;
+    height: calc(90vh + 10px);
+    background-color:aquamarine;
+  
+  }
+  
+  .main .content{
+    width: 80%;
+    background-color: antiquewhite;
+  }
