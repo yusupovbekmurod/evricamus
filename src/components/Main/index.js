@@ -1,5 +1,5 @@
 import "./style.css";
-import { NavLink, Route, Routes } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 
 import TopibOldim from "../../layout/TopibOldim";
 import Yoqotdim from "../../layout/Yoqotdim";
@@ -18,8 +18,8 @@ function Main() {
         <Routes>
         <Route path="/topiboldim" element={<TopibOldim />} />
         <Route path="/yoqotdim" element={<Yoqotdim/>} />
-        <Route path="profil" element={<Profil/>} />
-        <Route path="kirish" element={<Kirish/>} />
+        <Route path="/profil" element={<Profil/>} />
+        <Route path="/kirish" element={<Kirish/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
         </div>
