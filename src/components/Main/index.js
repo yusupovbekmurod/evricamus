@@ -10,6 +10,8 @@ import Profil from "../../layout/Profil";
 import "../../components/Header";
 
 function Main() {
+
+
     return (
 
         <main className='main'>
@@ -26,5 +28,7 @@ function Main() {
        </main>
        
     )
+
+   
 }
 export default Main

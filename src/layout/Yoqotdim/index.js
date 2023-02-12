@@ -1,7 +1,9 @@
+ import TopibOldim from "../TopibOldim"
+ 
  function Yoqotdim() {
     return (
         <>
-        Yoqotdim
+        <TopibOldim/>
         </>
     )
  }
